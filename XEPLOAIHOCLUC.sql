@@ -1,0 +1,22 @@
+CREATE TABLE `Xeploaihocluc` (
+`Lớp` Char(8) NOT NULL,
+`Tốt_TS` int(8) NOT NULL,
+`Tốt_%` FLOAT(8) NOT NULL,
+`Khá_TS` int(8) NOT NULL,
+`Khá_%` FLOAT(8) NOT NULL,
+`Yếu_TS` int(8) DEFAULT NULL,
+`Yếu_%` FLOAT(8) DEFAULT NULL,
+`Kém_TS` int(8) DEFAULT NULL,
+`Kém_%` FLOAT(8) DEFAULT NULL,
+`Ghi chú` Varchar(8) DEFAULT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+INSERT INTO `Xeploaihocluc`  VALUES ('9B',15,13,86,66,2,13,34,0,0,0,0,NULL);
+INSERT INTO `Xeploaihocluc`  VALUES ('6A',15,14,93,33,1,6,67,0,0,0,0,NULL);
+INSERT INTO `Xeploaihocluc`  VALUES ('6B',16,14,87,5,2,12,5,0,0,0,0,NULL);
+INSERT INTO `Xeploaihocluc`  VALUES ('7A',15,13,86,66,2,13,34,0,0,0,0,NULL);
+INSERT INTO `Xeploaihocluc`  VALUES ('7B',17,16,94,11,1,5,89,0,0,0,0,NULL);
+INSERT INTO `Xeploaihocluc`  VALUES ('8A',16,15,93,75,1,6,25,0,0,0,0,NULL);
+INSERT INTO `Xeploaihocluc`  VALUES ('8B',17,15,88,24,2,11,76,0,0,0,0,NULL);
+INSERT INTO `Xeploaihocluc`  VALUES ('9A',16,16,100,0,0,0,0,0,0,NULL);
